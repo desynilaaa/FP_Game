@@ -416,15 +416,44 @@
                         <action id="-26" name="Restart layout" sid="849591523491325" type="System" />
                     </actions>
                 </event-block>
+                <event-block sid="388745156431744">
+                    <conditions>
+                        <condition id="-4" name="Trigger once while true" sid="327300296899585" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="408411875599985">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="593911345261127" type="SpriteFont">
+                                    <param id="0" name="Instance variable">type</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;key&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="390763378501707" type="SpriteFont">
+                                    <param id="0" name="Text">playerRed.key</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
             </sub-events>
         </event-block>
         <event-block sid="738436099594334">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="142691779299658" type="playerRed">
-                    <param id="0" name="Object">flagGreen_up</param>
+                    <param id="0" name="Object">doorGreen_lock</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="286933665164291" type="doorGreen_lock">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">1</param>
                 </condition>
             </conditions>
             <actions>
+                <action id="-16" name="Wait" sid="440253165788847" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
                 <action id="-12" name="Set group active" sid="204037673923480" type="System">
                     <param id="0" name="Group name">&quot;Player&quot;</param>
                     <param id="1" name="State">0</param>
@@ -598,5 +627,47 @@
                 </event-group>
             </sub-events>
         </event-group>
+        <event-block sid="681723678294417">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="673205710346864" type="playerRed">
+                    <param id="0" name="Object">key</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="517039345689205" type="key" />
+                <action id="-11" name="Add to" sid="917213710026521" type="playerRed">
+                    <param id="0" name="Instance variable">key</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="360136127388869" type="keyHUD">
+                    <param id="0" name="Frame number">playerRed.key</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="936251638929131">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="821495134646327" type="playerRed">
+                    <param id="0" name="Instance variable">key</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="933823438337764">
+                    <conditions>
+                        <condition id="-4" name="Trigger once while true" sid="901349225701891" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="908529962573991" type="doorGreen_lock">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="183420565480319" type="doorGreen_top">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>

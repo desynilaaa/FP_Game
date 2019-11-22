@@ -117,6 +117,9 @@
         </object-type>
         <object-type name="playerRed" sid="987908677856070">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="key" sid="580353612449199" type="number" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="Platform" sid="621539585857503">
                     <behavior id="Platform" />
@@ -616,25 +619,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="flagGreen_up" sid="157763704576822">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="864783647819061" speed="5">
-                    <frame duration="1" hotspotX="0.508475" hotspotY="0.508197" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Other\flagGreen_up.png">
-                        <collision-poly>
-                            <point x="0.0338983" y="0.0327869" />
-                            <point x="0.491525" y="0.163934" />
-                            <point x="0.711864" y="0.278689" />
-                            <point x="0.135593" y="0.491803" />
-                            <point x="0.40678" y="0.42623" />
-                            <point x="0.491525" y="0.42623" />
-                            <point x="0.0169492" y="0.983607" />
-                            <point x="0" y="0.491803" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Window" sid="765465780250987">
             <plugin id="Sprite" />
             <animation-folder>
@@ -719,6 +703,120 @@
         <object-type name="TiledBackground3" sid="278818597183678">
             <plugin id="TiledBg" />
             <texture />
+        </object-type>
+        <object-type name="key" sid="651427526260703">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="327974810909858" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\extra\key.png">
+                        <collision-poly>
+                            <point x="0.311111" y="0.311111" />
+                            <point x="0.488889" y="0.0666667" />
+                            <point x="0.866667" y="0.133333" />
+                            <point x="0.933333" y="0.488889" />
+                            <point x="0.711111" y="0.711111" />
+                            <point x="0.488889" y="0.733333" />
+                            <point x="0.0666667" y="0.933333" />
+                            <point x="0.311111" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="keyHUD" sid="102242359925371">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="902422645663392" speed="0">
+                    <frame duration="1" hotspotX="0" hotspotY="0.509434" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\extra\key0.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0.509434" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\extra\key1.png">
+                        <collision-poly>
+                            <point x="0.0853659" y="0.264151" />
+                            <point x="0.256098" y="0.490566" />
+                            <point x="0.0243902" y="0.924528" />
+                            <point x="0.0792683" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0" hotspotY="0.509434" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\extra\key2.png">
+                        <collision-poly>
+                            <point x="0.0853659" y="0.264151" />
+                            <point x="0.5" y="0.113208" />
+                            <point x="0.609756" y="0.490566" />
+                            <point x="0.5" y="0.698113" />
+                            <point x="0.0243902" y="0.924528" />
+                            <point x="0.0792683" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0" hotspotY="0.511111" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\extra\key3.png">
+                        <collision-poly>
+                            <point x="0.0880503" y="0.311111" />
+                            <point x="0.496855" y="0.0666667" />
+                            <point x="0.962264" y="0.133333" />
+                            <point x="0.987421" y="0.488889" />
+                            <point x="0.918239" y="0.711111" />
+                            <point x="0.496855" y="0.733333" />
+                            <point x="0.0188679" y="0.933333" />
+                            <point x="0.0880503" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="doorGreen_top" sid="506694856116250">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551338850613468" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Other\doorGreen_top.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Other\doorOpen_top.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="doorGreen_lock" sid="230673550414477">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="469648826205421" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Other\doorGreen_lock.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Other\doorOpen.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="key2" sid="195634835965755">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="923090444248649" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\extra\key.png">
+                        <collision-poly>
+                            <point x="0.311111" y="0.311111" />
+                            <point x="0.488889" y="0.0666667" />
+                            <point x="0.866667" y="0.133333" />
+                            <point x="0.933333" y="0.488889" />
+                            <point x="0.711111" y="0.711111" />
+                            <point x="0.488889" y="0.733333" />
+                            <point x="0.0666667" y="0.933333" />
+                            <point x="0.311111" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

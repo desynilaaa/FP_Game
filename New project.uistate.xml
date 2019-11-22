@@ -50,9 +50,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite3/" />
         <folder expanded="1" path="animation-folder/hudHeart_full/" />
         <folder expanded="1" path="animation-folder/bonus/" />
-        <folder expanded="1" path="animation-folder/flagGreen_up/" />
         <folder expanded="1" path="animation-folder/Window/" />
         <folder expanded="1" path="animation-folder/complete/" />
         <folder expanded="1" path="animation-folder/Restart/" />
+        <folder expanded="1" path="animation-folder/key/" />
+        <folder expanded="1" path="animation-folder/keyHUD/" />
+        <folder expanded="1" path="animation-folder/doorGreen_top/" />
+        <folder expanded="1" path="animation-folder/doorGreen_lock/" />
+        <folder expanded="1" path="animation-folder/key2/" />
     </folders-expanded>
 </c2uistate>
