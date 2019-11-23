@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ePanduan</name>
+    <events>
+        <event-block sid="726385182836896">
+            <conditions>
+                <condition id="17" name="On tap object" sid="611774597797152" type="Touch">
+                    <param id="0" name="Object">Button_</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Start" sid="751168621925316" type="Button_">
+                    <param id="0" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="958936523603550" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="288418637350100" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

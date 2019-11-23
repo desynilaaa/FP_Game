@@ -10,12 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Layout 1</layout>
-        <layout order="2">Layout 2</layout>
-        <layout order="3">Layout 3</layout>
-        <layout order="4">Layout 4</layout>
-        <layout active="1" order="5">Layout 5</layout>
-        <event-sheet order="1">Event sheet 1</event-sheet>
+        <layout active="1" order="0">Menu</layout>
+        <layout order="4">PanduanGame</layout>
+        <layout order="5">CreditGame</layout>
+        <event-sheet order="1">eGame</event-sheet>
+        <event-sheet order="2">eMenu</event-sheet>
+        <event-sheet order="3">ePanduan</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -23,15 +23,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
-    <families-expanded root="0">
-        <family expanded="1" name="Button1" />
+    <families-expanded root="1">
+        <family expanded="0" name="Button1" />
     </families-expanded>
     <folders-expanded>
-        <folder expanded="0" path="object-folder/" />
-        <folder expanded="0" path="layout-folder/" />
-        <folder expanded="0" path="event-folder/" />
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Level/" />
+        <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
-        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/set3_background/" />
@@ -78,5 +79,35 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/set2_background/" />
         <folder expanded="1" path="animation-folder/set2_tiles/" />
         <folder expanded="1" path="animation-folder/set2_hills/" />
+        <folder expanded="1" path="animation-folder/backgroundMenu/" />
+        <folder expanded="1" path="animation-folder/bitmap/" />
+        <folder expanded="1" path="animation-folder/text/" />
+        <folder expanded="1" path="animation-folder/btnPlay/" />
+        <folder expanded="1" path="animation-folder/bg_menu/" />
+        <folder expanded="1" path="animation-folder/Window_/" />
+        <folder expanded="1" path="animation-folder/l/" />
+        <folder expanded="1" path="animation-folder/l2/" />
+        <folder expanded="1" path="animation-folder/ButtonLevel/" />
+        <folder expanded="1" path="animation-folder/Button_/" />
+        <folder expanded="1" path="animation-folder/playerGrey_stand/" />
+        <folder expanded="1" path="animation-folder/playerBlue_up/" />
+        <folder expanded="1" path="animation-folder/playerGreen_up/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Button_2/" />
+        <folder expanded="1" path="animation-folder/WindowCopy_/" />
+        <folder expanded="1" path="animation-folder/Button_3/" />
+        <folder expanded="1" path="animation-folder/Button_4/" />
+        <folder expanded="1" path="animation-folder/Button_5/" />
+        <folder expanded="1" path="animation-folder/backgroundMenu2/" />
+        <folder expanded="1" path="animation-folder/enemyFloating_2/" />
+        <folder expanded="1" path="animation-folder/enemyFlying_2/" />
+        <folder expanded="1" path="animation-folder/playerRed_stand/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/bg_menu2/" />
+        <folder expanded="1" path="animation-folder/Button_6/" />
+        <folder expanded="1" path="animation-folder/IMG_/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
     </folders-expanded>
 </c2uistate>

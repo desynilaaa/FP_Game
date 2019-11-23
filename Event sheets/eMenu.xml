@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eMenu</name>
+    <events>
+        <event-block sid="964591265264591">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="850458805927675" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="276047901879792">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="603233746510520" type="System">
+                            <param id="0" name="Variable">Music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;on&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="714482183581215" type="Audio">
+                            <param id="0" name="Audio file">MattOglseby - 1</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="492279539720942">
+            <conditions>
+                <condition id="17" name="On tap object" sid="925783533220266" type="Touch">
+                    <param id="0" name="Object">btnPlay</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Start" sid="974253490655714" type="btnPlay">
+                    <param id="0" name="From">1</param>
+                </action>
+                <action id="33" name="Stop all" sid="222333100522124" type="Audio" />
+                <action id="-16" name="Wait" sid="745194424697578" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="565622757346133" type="System">
+                    <param id="0" name="Layout">SelectLevel</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="350123188294649">
+            <conditions>
+                <condition id="17" name="On tap object" sid="378832867109156" type="Touch">
+                    <param id="0" name="Object">Button1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="325318395922030">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="412644225486051" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;on&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="315367723011175" type="Audio">
+                            <param id="0" name="Audio file">click</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="443766963906131">
+            <conditions>
+                <condition id="17" name="On tap object" sid="783072126018715" type="Touch">
+                    <param id="0" name="Object">Button_2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="919635704130406" type="System">
+                    <param id="0" name="Layout">PanduanGame</param>
+                </action>
+                <action id="-16" name="Wait" sid="694085651589573" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="434495854424941">
+            <conditions>
+                <condition id="17" name="On tap object" sid="555251136997958" type="Touch">
+                    <param id="0" name="Object">Button_6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="255223469711616" type="System">
+                    <param id="0" name="Layout">CreditGame</param>
+                </action>
+                <action id="-16" name="Wait" sid="846581642401476" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
