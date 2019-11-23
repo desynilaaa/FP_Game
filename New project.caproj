@@ -10,6 +10,8 @@
     <unique-id>1jnytyv4ihdic</unique-id>
     <saved-with-version>27200</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
@@ -818,10 +820,213 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="flatDark" sid="533433999702986">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="464471351093694" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Control\flatDark\flatDark23.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flatDark2" sid="187375687879903">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="161346278073018" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Control\flatDark\flatDark24.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flatDark3" sid="116470095574826">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="992494192240581" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Control\flatDark\flatDark25.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NextLevel" sid="624425198819856">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421633293055989" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\GUI\gui\button\Button_46.png" />
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\GUI\gui\button\Button_49.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="set4_background" sid="191703291870345">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="794258614605558" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Backgrounds\set4_background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="set3_background2" sid="813169888692164">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="410721966064294" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Backgrounds\set3_background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="set1_background" sid="214434683209425">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="981953528258695" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Backgrounds\set1_background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="set4_background2" sid="952678558778851">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="194141654310392" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Backgrounds\set4_background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="set4_background3" sid="301285803074884">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506418705412163" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Backgrounds\set4_background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="set4_tiles" sid="830931055470687">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="249618129354304" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500805" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Backgrounds\set4_tiles.png">
+                        <collision-poly>
+                            <point x="0.100352" y="0.183575" />
+                            <point x="0.5" y="0.041868" />
+                            <point x="0.757923" y="0.442834" />
+                            <point x="1" y="0.499195" />
+                            <point x="0.877641" y="0.776167" />
+                            <point x="0.5" y="0.644122" />
+                            <point x="0.0228873" y="0.958132" />
+                            <point x="0" y="0.499195" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="set4_hills" sid="316129724760471">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="398948418694067" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Backgrounds\set4_hills.png">
+                        <collision-poly>
+                            <point x="0.354508" y="0.720833" />
+                            <point x="0.748975" y="0.510417" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="set2_background" sid="447166339767986">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="817113171325872" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Backgrounds\set2_background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="set2_tiles" sid="312128594679258">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="886114246845154" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500805" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Backgrounds\set2_tiles.png">
+                        <collision-poly>
+                            <point x="0.100352" y="0.183575" />
+                            <point x="0.5" y="0.041868" />
+                            <point x="0.757923" y="0.442834" />
+                            <point x="1" y="0.499195" />
+                            <point x="0.877641" y="0.776167" />
+                            <point x="0.5" y="0.644122" />
+                            <point x="0.0228873" y="0.958132" />
+                            <point x="0" y="0.499195" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="set2_hills" sid="838211716623414">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="192464517344608" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Backgrounds\set2_hills.png">
+                        <collision-poly>
+                            <point x="0.355236" y="0.720833" />
+                            <point x="0.749487" y="0.508333" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="271124101586881">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Function" sid="175659728005862">
+            <plugin id="Function" />
+        </object-type>
     </object-folder>
-    <families />
+    <families>
+        <family name="Button1" plugin-id="Sprite" sid="588046485487800">
+            <members>
+                <member>NextLevel</member>
+                <member>Restart</member>
+            </members>
+        </family>
+    </families>
     <layout-folder>
         <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
+        <layout>Layout 3.xml</layout>
+        <layout>Layout 4.xml</layout>
+        <layout>Layout 5.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
@@ -833,9 +1038,40 @@
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
+        <global-instance type="Audio" uid="671">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Function" uid="672" />
     </global-instances>
-    <sounds-folder />
-    <music-folder />
+    <sounds-folder>
+        <file name="Collect Gem.m4a" />
+        <file name="Collect Gem.ogg" />
+        <file name="Collect Key.m4a" />
+        <file name="Collect Key.ogg" />
+        <file name="EnemyHit.m4a" />
+        <file name="EnemyHit.ogg" />
+        <file name="Hit.m4a" />
+        <file name="Hit.ogg" />
+        <file name="Jingle Lose.m4a" />
+        <file name="Jingle Lose.ogg" />
+        <file name="Jingle Win.m4a" />
+        <file name="Jingle Win.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="MattOglseby - 1.m4a" />
+        <file name="MattOglseby - 1.ogg" />
+    </music-folder>
     <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />
