@@ -8,10 +8,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <conditions-column>168</conditions-column>
     <actions-namecolumn>21</actions-namecolumn>
     <condition-namecolumns>
-        <nest>82</nest>
-        <nest>70</nest>
-        <nest>51</nest>
-        <nest>33</nest>
+        <nest>68</nest>
+        <nest>50</nest>
+        <nest>32</nest>
         <nest>18</nest>
     </condition-namecolumns>
     <events />

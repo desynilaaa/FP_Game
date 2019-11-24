@@ -13,7 +13,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">Menu</layout>
         <layout order="4">PanduanGame</layout>
         <layout order="5">CreditGame</layout>
-        <event-sheet active="1" order="1">eGame</event-sheet>
+        <layout order="6">1</layout>
+        <layout active="1" order="10">5</layout>
+        <layout order="7">2</layout>
+        <layout order="8">3</layout>
+        <layout order="9">4</layout>
+        <event-sheet order="1">eGame</event-sheet>
         <event-sheet order="2">eMenu</event-sheet>
         <event-sheet order="3">ePanduan</event-sheet>
     </open-tabs>
@@ -24,17 +29,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1">
-        <family expanded="0" name="Button1" />
+        <family expanded="1" name="Button1" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Level/" />
+        <folder expanded="1" path="layout-folder/Level/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
-        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/set3_background/" />
         <folder expanded="1" path="animation-folder/set3_tiles/" />
         <folder expanded="1" path="animation-folder/set3_hills/" />

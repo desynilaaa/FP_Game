@@ -136,21 +136,20 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="763597692350667" speed="5">
-                    <frame duration="1" hotspotX="0.512821" hotspotY="1" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Platformer\Abstract Platformer\PNG\Players\Player Red\playerRed_stand.png" />
+                    <frame duration="1" hotspotX="0.507463" hotspotY="0.5" original-source="D:\Downloads\sprite navy\walking-1.png" />
                 </animation>
-                <animation framecount="3" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="440600872649937" speed="5">
-                    <frame duration="1" hotspotX="0.512821" hotspotY="1" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Platformer\Abstract Platformer\PNG\Players\Player Red\playerRed_walk1.png" />
-                    <frame duration="1" hotspotX="0.512821" hotspotY="1" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Platformer\Abstract Platformer\PNG\Players\Player Red\playerRed_walk2.png" />
-                    <frame duration="1" hotspotX="0.512821" hotspotY="1" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Platformer\Abstract Platformer\PNG\Players\Player Red\playerRed_walk3.png" />
+                <animation framecount="2" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="440600872649937" speed="5">
+                    <frame duration="1" hotspotX="0.507463" hotspotY="0.5" original-source="D:\Downloads\sprite navy\walking-1.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.5" original-source="D:\Downloads\sprite navy\walking-2.png" />
                 </animation>
                 <animation framecount="1" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="266355210957111" speed="5">
-                    <frame duration="1" hotspotX="0.512821" hotspotY="1" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Platformer\Abstract Platformer\PNG\Players\Player Red\playerRed_up2.png" />
+                    <frame duration="1" hotspotX="0.506329" hotspotY="0.505263" original-source="D:\Downloads\sprite navy\jump.png" />
                 </animation>
                 <animation framecount="1" loop="0" name="Fall" pingpong="0" repeatcount="1" repeatto="0" sid="215982050520398" speed="5">
-                    <frame duration="1" hotspotX="0.512821" hotspotY="1" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Platformer\Abstract Platformer\PNG\Players\Player Red\playerRed_fall.png" />
+                    <frame duration="1" hotspotX="0.506329" hotspotY="0.5" original-source="D:\Downloads\sprite navy\landing.png" />
                 </animation>
                 <animation framecount="1" loop="0" name="Dead" pingpong="0" repeatcount="1" repeatto="0" sid="342486265233430" speed="5">
-                    <frame duration="1" hotspotX="0.512821" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Players\Player Red\playerRed_dead.png" />
+                    <frame duration="1" hotspotX="0.506329" hotspotY="0.505263" original-source="D:\Downloads\sprite navy\dead.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -342,11 +341,32 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="409111013596329" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Platformer\Abstract Platformer\PNG\Enemies\enemyWalking_1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Platformer\Abstract Platformer\PNG\Enemies\enemyWalking_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504854" original-source="D:\Downloads\sprite navy\walking-1 pirate.png">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504762" original-source="D:\Downloads\sprite navy\walking-2 pirate.png">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Dead" pingpong="0" repeatcount="1" repeatto="0" sid="225453378578736" speed="5">
-                    <frame duration="1" hotspotX="0.514286" hotspotY="1" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Enemies\enemyWalking_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504762" original-source="D:\Downloads\sprite navy\dead pirate.png">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -711,18 +731,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="327974810909858" speed="5">
-                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\extra\key.png">
-                        <collision-poly>
-                            <point x="0.311111" y="0.311111" />
-                            <point x="0.488889" y="0.0666667" />
-                            <point x="0.866667" y="0.133333" />
-                            <point x="0.933333" y="0.488889" />
-                            <point x="0.711111" y="0.711111" />
-                            <point x="0.488889" y="0.733333" />
-                            <point x="0.0666667" y="0.933333" />
-                            <point x="0.311111" y="0.488889" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.508197" original-source="D:\Downloads\sprite navy\treasure.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -806,18 +815,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="923090444248649" speed="5">
-                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\extra\key.png">
-                        <collision-poly>
-                            <point x="0.311111" y="0.311111" />
-                            <point x="0.488889" y="0.0666667" />
-                            <point x="0.866667" y="0.133333" />
-                            <point x="0.933333" y="0.488889" />
-                            <point x="0.711111" y="0.711111" />
-                            <point x="0.488889" y="0.733333" />
-                            <point x="0.0666667" y="0.933333" />
-                            <point x="0.311111" y="0.488889" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.508197" original-source="D:\Downloads\sprite navy\treasure.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1432,17 +1430,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="377647763883730" speed="5">
-                    <frame duration="1" hotspotX="0.512821" hotspotY="0.5" original-source="D:\smt7\Teknik Pengembangan Game\Game1\Asset\Abstract Platformer\PNG\Players\Player Red\playerRed_stand.png">
-                        <collision-poly>
-                            <point x="0.0512821" y="0.0416667" />
-                            <point x="0.487179" y="0" />
-                            <point x="0.948718" y="0.0416667" />
-                            <point x="1" y="0.5" />
-                            <point x="0.74359" y="0.791667" />
-                            <point x="0.25641" y="0.791667" />
-                            <point x="0.025641" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.507463" hotspotY="0.5" original-source="D:\Downloads\sprite navy\walking-1.png" />
                 </animation>
             </animation-folder>
         </object-type>
