@@ -110,7 +110,7 @@
                     <properties>
                         <text>Game Credit</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>MichiNoInku,-96,400,0</font>
+                        <font>,-96,700,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -124,11 +124,38 @@
                         <x>448</x>
                         <y>32</y>
                         <z>0</z>
-                        <width>816</width>
-                        <height>256</height>
+                        <width>560</width>
+                        <height>160</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text7" uid="675">
+                    <properties>
+                        <text>Gamejam Kuliah Pengembangan Game ITS</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-29,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Center</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>704</x>
+                        <y>352</y>
+                        <z>0</z>
+                        <width>704</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -209,7 +236,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>704</x>
-                        <y>181</y>
+                        <y>174</y>
                         <z>0</z>
                         <width>592</width>
                         <height>64</height>
@@ -236,7 +263,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>704</x>
-                        <y>245</y>
+                        <y>233</y>
                         <z>0</z>
                         <width>592</width>
                         <height>64</height>
@@ -258,7 +285,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>288</x>
-                        <y>512</y>
+                        <y>535</y>
                         <z>0</z>
                         <width>160</width>
                         <height>256</height>
@@ -280,7 +307,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>699</x>
-                        <y>512</y>
+                        <y>535</y>
                         <z>0</z>
                         <width>176</width>
                         <height>256</height>
@@ -307,7 +334,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>208</x>
-                        <y>672</y>
+                        <y>695</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>
@@ -334,7 +361,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>646</x>
-                        <y>672</y>
+                        <y>695</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>
@@ -361,7 +388,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1072</x>
-                        <y>672</y>
+                        <y>695</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>
@@ -388,7 +415,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>704</x>
-                        <y>309</y>
+                        <y>290</y>
                         <z>0</z>
                         <width>592</width>
                         <height>64</height>
@@ -410,7 +437,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1099</x>
-                        <y>516</y>
+                        <y>539</y>
                         <z>0</z>
                         <width>160</width>
                         <height>256</height>

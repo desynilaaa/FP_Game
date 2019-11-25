@@ -450,7 +450,7 @@
                             <param id="0" name="Vector Y">-600</param>
                         </action>
                         <action id="0" name="Call function" sid="490511259998695" type="Function">
-                            <param id="0" name="Name">&quot;playHit&quot;</param>
+                            <param id="0" name="Name">&quot;playHitPirates&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
                         </action>
                     </actions>
@@ -910,9 +910,6 @@
                         <action id="5" name="Set frame" sid="908529962573991" type="doorGreen_lock">
                             <param id="0" name="Frame number">1</param>
                         </action>
-                        <action id="5" name="Set frame" sid="183420565480319" type="doorGreen_top">
-                            <param id="0" name="Frame number">1</param>
-                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -961,7 +958,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Play" sid="824494501266124" type="Audio">
-                            <param id="0" name="Audio file">EnemyHit</param>
+                            <param id="0" name="Audio file">aw01</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -1057,6 +1054,7 @@
                 <action id="3" name="Start" sid="275552320144506" type="Button_">
                     <param id="0" name="From">1</param>
                 </action>
+                <action id="33" name="Stop all" sid="196445145233678" type="Audio" />
                 <action id="-16" name="Wait" sid="455422973089392" type="System">
                     <param id="0" name="Seconds">0.3</param>
                 </action>
@@ -1064,6 +1062,33 @@
                     <param id="0" name="Layout">Menu</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="292849491788025">
+            <conditions>
+                <condition id="0" name="On function" sid="292226260508435" type="Function">
+                    <param id="0" name="Name">&quot;playHitPirates&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="708201206217554">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="763800312232479" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;on&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="184501887733896" type="Audio">
+                            <param id="0" name="Audio file">aw02</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

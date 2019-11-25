@@ -432,9 +432,9 @@
             <instances>
                 <instance type="Text4" uid="745">
                     <properties>
-                        <text>Bantu si Grapes untuk menemukan teman-temannya yang hilang. Ambil 3 kunci setiap levelnya untuk bisa membuka pintu pada akhir level. Ambilah buah anggur sebanyak mungkin !!</text>
+                        <text>Bantu sang Pelaut untuk merebut kembali harta karun yang dicuri oleh bajak laut. Ambil 3 peti harta karun setiap levelnya untuk bisa memunculkan kapal pada akhir level. Ambilah buah anggur sebanyak mungkin !!</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Rounded MT Bold,-37.6,400,0</font>
+                        <font>Arial Rounded MT Bold,-37,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
